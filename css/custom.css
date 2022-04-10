@@ -1,7 +1,13 @@
-main {
+body {
     font-family: 'Nunito Sans', sans-serif;
-    min-height: 80vh;
-    margin: 3%;
+    background-color: #282b33;
+    background-image: url('https://source.unsplash.com/1920x1080/?landscape');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section {
+    min-height: 100vh;
 }
 footer {
     padding: 2% 0;
@@ -15,11 +21,22 @@ footer {
 }
 
 
-form .form-control, form .form-control:focus, form .form-select, form .form-select:focus {
-    color: cornsilk;
-    background-color: rgba(72, 75, 82, 0.925);
+.transbox {
+  background: #000000d0;
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 720px;
+  margin: 1em;
 }
 
+form .form-control, form .form-control:focus, form .form-select, form .form-select:focus {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #7c7c7c2b;
+}
 
 button {
     cursor: pointer;
