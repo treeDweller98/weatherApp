@@ -1,0 +1,33 @@
+main {
+    font-family: 'Nunito Sans', sans-serif;
+    min-height: 80vh;
+    margin: 3%;
+}
+footer {
+    padding: 2% 0;
+    border-style: ridge none none;
+    border-color: rgb(196, 183, 183);
+    background-color: #212529;
+    color: rgb(212, 204, 204);
+    font-variant: small-caps;
+    font-size: small;
+    text-align: center;
+}
+
+
+form .form-control, form .form-control:focus, form .form-select, form .form-select:focus {
+    color: cornsilk;
+    background-color: rgba(72, 75, 82, 0.925);
+}
+
+
+button {
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: #212529;
+}
+button:hover {
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+    background-color: #3f464e;
+}
